@@ -1,0 +1,2 @@
+vhdtdtfi -lib work {C:/Users/Nikhil Handyal/Documents/Spring 2012/EE 201/Xillinx/Final Project/Spectrum_Analyzer/bitRevRam.v} -lang verilog -prj Spectrum_Analyzer -o bitRevRam.spl -module bitRevRam -template C:/Xilinx/13.2/ISE_DS/ISE//data/splveri.tft -deleteonerror 
+spl2sym -intstyle ise -family spartan6 bitRevRam.spl {C:/Users/Nikhil Handyal/Documents/Spring 2012/EE 201/Xillinx/Final Project/Spectrum_Analyzer/bitRevRam.sym} 

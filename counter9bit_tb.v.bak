@@ -1,0 +1,97 @@
+`timescale 1ns / 1ps
+
+////////////////////////////////////////////////////////////////////////////////
+// Company: 
+// Engineer:
+//
+// Create Date:   01:34:11 04/30/2012
+// Design Name:   counter9bit
+// Module Name:   C:/Users/Nikhil Handyal/Documents/Spring 2012/EE 201/Xillinx/Final Project/Spectrum_Analyzer/counter9bit_tb.v
+// Project Name:  Spectrum_Analyzer
+// Target Device:  
+// Tool versions:  
+// Description: 
+//
+// Verilog Test Fixture created by ISE for module: counter9bit
+//
+// Dependencies:
+// 
+// Revision:
+// Revision 0.01 - File Created
+// Additional Comments:
+// 
+////////////////////////////////////////////////////////////////////////////////
+
+module counter9bit_tb;
+
+	parameter HALF_PERIOD = 10;
+	
+	// Inputs
+	reg Clk;
+	reg reset;
+	reg start;
+
+	// Outputs
+	wire [8:0] count;
+	wire md2;
+	wire md4;
+	wire md8;
+	wire md16;
+	wire md32;
+	wire md64;
+	wire md128;
+	wire md216;
+	wire md512;
+
+	// Instantiate the Unit Under Test (UUT)
+	counter9bit uut (
+		.Clk(Clk), 
+		.reset(reset), 
+		.start(start), 
+		.count(count), 
+		.md2(md2), 
+		.md4(md4), 
+		.md8(md8), 
+		.md16(md16), 
+		.md32(md32), 
+		.md64(md64), 
+		.md128(md128), 
+		.md216(md216), 
+		.md512(md512)
+	);
+
+	initial begin :CLK_GENERATOR
+		Clk = 0;
+		forever begin
+			#HALF_PERIOD Clk = ~Clk;
+		end
+	end
+	
+	initial begin
+		// Initialize Inputs
+		Clk = 0;
+		reset = 1;
+		start = 0;
+
+		// Wait 100 ns for global reset to finish
+		#100;
+        
+		// Add stimulus here
+		#HALF_PERIOD;
+		reset = 0;
+		#20;
+		start = 1;
+		#40;
+		start = 0;
+		wait(md512);
+		#40;
+		start = 1;
+		#12.5;
+		start = 0;
+		#400;
+		reset = 1;
+		re
+	end
+      
+endmodule
+

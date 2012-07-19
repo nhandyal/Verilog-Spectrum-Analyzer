@@ -1,0 +1,5 @@
+MODULE bitRevOrderTest
+	SUBMODULE bitRevOrder
+		INSTANCE XLXI_1
+	SUBMODULE inputData_RRAM_test
+		INSTANCE XLXI_2

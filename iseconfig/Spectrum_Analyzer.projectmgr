@@ -1,0 +1,207 @@
+<?xml version='1.0' encoding='utf-8'?>
+<!--This is an ISE project configuration file.-->
+<!--It holds project specific layout data for the projectmgr plugin.-->
+<!--Copyright (c) 1995-2009 Xilinx, Inc.  All rights reserved.-->
+<Project version="2" owner="projectmgr" name="Spectrum_Analyzer" >
+   <!--This is an ISE project configuration file.-->
+   <ItemView engineview="SynthesisOnly" guiview="Source" compilemode="AutoCompile" >
+      <ClosedNodes>
+         <ClosedNodesVersion>2</ClosedNodesVersion>
+         <ClosedNode>/COS_LUT C:|Users|Nikhil Handyal|Documents|Spring 2012|EE 201|Xillinx|Final Project|Spectrum_Analyzer|COS_LUT.v</ClosedNode>
+         <ClosedNode>/bitRevOrderTest C:|Users|Nikhil Handyal|Documents|Spring 2012|EE 201|Xillinx|Final Project|Spectrum_Analyzer|bitRevOrderTest.sch</ClosedNode>
+         <ClosedNode>/bitRevOrderTest C:|Users|Nikhil Handyal|Documents|Spring 2012|EE 201|Xillinx|Final Project|Spectrum_Analyzer|bitRevOrderTest.sch/XLXI_1 - bitRevOrder</ClosedNode>
+         <ClosedNode>/bitRevOrder_SM_Top C:|Users|Nikhil Handyal|Documents|Spring 2012|EE 201|Xillinx|Final Project|Spectrum_Analyzer|bitRevOrder_SM_Top.sch</ClosedNode>
+         <ClosedNode>/bitRevOrder_SM_Top C:|Users|Nikhil Handyal|Documents|Spring 2012|EE 201|Xillinx|Final Project|Spectrum_Analyzer|bitRevOrder_SM_Top.sch/XLXI_1 - bitRevOrderSM</ClosedNode>
+         <ClosedNode>/bitRevOrder_SM_Top C:|Users|Nikhil Handyal|Documents|Spring 2012|EE 201|Xillinx|Final Project|Spectrum_Analyzer|bitRevOrder_SM_Top.sch/brSM - bitRevOrderSM</ClosedNode>
+         <ClosedNode>/test C:|Users|Nikhil Handyal|Documents|Spring 2012|EE 201|Xillinx|Final Project|Spectrum_Analyzer|test.sch</ClosedNode>
+         <ClosedNode>/test C:|Users|Nikhil Handyal|Documents|Spring 2012|EE 201|Xillinx|Final Project|Spectrum_Analyzer|test.sch/XLXI_1 - bitRevOrderSM</ClosedNode>
+      </ClosedNodes>
+      <SelectedItems>
+         <SelectedItem>SIN_LUT (C:/Users/Nikhil Handyal/Documents/Spring 2012/EE 201/Xillinx/Final Project/Spectrum_Analyzer/SIN_LUT.v)</SelectedItem>
+      </SelectedItems>
+      <ScrollbarPosition orientation="vertical" >1</ScrollbarPosition>
+      <ScrollbarPosition orientation="horizontal" >0</ScrollbarPosition>
+      <ViewHeaderState orientation="horizontal" >000000ff00000000000000010000000100000000000000000000000000000000020200000001000000010000006400000356000000020000000000000000000000000200000064ffffffff000000810000000300000002000003560000000100000003000000000000000100000003</ViewHeaderState>
+      <UserChangedColumnWidths orientation="horizontal" >true</UserChangedColumnWidths>
+      <CurrentItem>SIN_LUT (C:/Users/Nikhil Handyal/Documents/Spring 2012/EE 201/Xillinx/Final Project/Spectrum_Analyzer/SIN_LUT.v)</CurrentItem>
+   </ItemView>
+   <ItemView engineview="SynthesisOnly" sourcetype="" guiview="Process" >
+      <ClosedNodes>
+         <ClosedNodesVersion>1</ClosedNodesVersion>
+         <ClosedNode>Design Utilities</ClosedNode>
+      </ClosedNodes>
+      <SelectedItems>
+         <SelectedItem>Design Utilities</SelectedItem>
+      </SelectedItems>
+      <ScrollbarPosition orientation="vertical" >0</ScrollbarPosition>
+      <ScrollbarPosition orientation="horizontal" >0</ScrollbarPosition>
+      <ViewHeaderState orientation="horizontal" >000000ff000000000000000100000001000000000000000000000000000000000000000000000001e1000000010000000100000000000000000000000064ffffffff000000810000000000000001000001e10000000100000000</ViewHeaderState>
+      <UserChangedColumnWidths orientation="horizontal" >false</UserChangedColumnWidths>
+      <CurrentItem>Design Utilities</CurrentItem>
+   </ItemView>
+   <ItemView guiview="File" >
+      <ClosedNodes>
+         <ClosedNodesVersion>1</ClosedNodesVersion>
+      </ClosedNodes>
+      <SelectedItems/>
+      <ScrollbarPosition orientation="vertical" >0</ScrollbarPosition>
+      <ScrollbarPosition orientation="horizontal" >0</ScrollbarPosition>
+      <ViewHeaderState orientation="horizontal" >000000ff00000000000000010000000000000000010000000000000000000000000000000000000130000000040101000100000000000000000000000064ffffffff000000810000000000000004000000420000000100000000000000240000000100000000000000660000000100000000000000640000000100000000</ViewHeaderState>
+      <UserChangedColumnWidths orientation="horizontal" >false</UserChangedColumnWidths>
+      <CurrentItem>C:\Users\Nikhil Handyal\Documents\Spring 2012\EE 201\Xillinx\Final Project\Spectrum_Analyzer\ee201l_spectrum_analyzer_UCF.ucf</CurrentItem>
+   </ItemView>
+   <ItemView guiview="Library" >
+      <ClosedNodes>
+         <ClosedNodesVersion>1</ClosedNodesVersion>
+      </ClosedNodes>
+      <SelectedItems/>
+      <ScrollbarPosition orientation="vertical" >0</ScrollbarPosition>
+      <ScrollbarPosition orientation="horizontal" >0</ScrollbarPosition>
+      <ViewHeaderState orientation="horizontal" >000000ff000000000000000100000000000000000100000000000000000000000000000000000001e7000000010001000100000000000000000000000064ffffffff000000810000000000000001000001e70000000100000000</ViewHeaderState>
+      <UserChangedColumnWidths orientation="horizontal" >false</UserChangedColumnWidths>
+      <CurrentItem>work</CurrentItem>
+   </ItemView>
+   <SourceProcessView>000000ff00000000000000020000011b0000011b01000000050100000002</SourceProcessView>
+   <CurrentView>Implementation</CurrentView>
+   <ItemView engineview="SynthesisOnly" sourcetype="DESUT_VERILOG" guiview="Process" >
+      <ClosedNodes>
+         <ClosedNodesVersion>1</ClosedNodesVersion>
+         <ClosedNode>Configure Target Device</ClosedNode>
+         <ClosedNode>Implement Design/Map</ClosedNode>
+         <ClosedNode>Implement Design/Place &amp; Route</ClosedNode>
+         <ClosedNode>Implement Design/Translate</ClosedNode>
+         <ClosedNode>User Constraints</ClosedNode>
+      </ClosedNodes>
+      <SelectedItems>
+         <SelectedItem>Design Utilities</SelectedItem>
+      </SelectedItems>
+      <ScrollbarPosition orientation="vertical" >0</ScrollbarPosition>
+      <ScrollbarPosition orientation="horizontal" >0</ScrollbarPosition>
+      <ViewHeaderState orientation="horizontal" >000000ff000000000000000100000001000000000000000000000000000000000000000000000001e7000000010000000100000000000000000000000064ffffffff000000810000000000000001000001e70000000100000000</ViewHeaderState>
+      <UserChangedColumnWidths orientation="horizontal" >false</UserChangedColumnWidths>
+      <CurrentItem>Design Utilities</CurrentItem>
+   </ItemView>
+   <ItemView engineview="SynthesisOnly" sourcetype="DESUT_UCF" guiview="Process" >
+      <ClosedNodes>
+         <ClosedNodesVersion>1</ClosedNodesVersion>
+         <ClosedNode>User Constraints</ClosedNode>
+      </ClosedNodes>
+      <SelectedItems>
+         <SelectedItem/>
+      </SelectedItems>
+      <ScrollbarPosition orientation="vertical" >0</ScrollbarPosition>
+      <ScrollbarPosition orientation="horizontal" >0</ScrollbarPosition>
+      <ViewHeaderState orientation="horizontal" >000000ff000000000000000100000001000000000000000000000000000000000000000000000001e7000000010000000100000000000000000000000064ffffffff000000810000000000000001000001e70000000100000000</ViewHeaderState>
+      <UserChangedColumnWidths orientation="horizontal" >false</UserChangedColumnWidths>
+      <CurrentItem/>
+   </ItemView>
+   <ItemView engineview="SynthesisOnly" sourcetype="DESUT_BMM" guiview="Process" >
+      <ClosedNodes>
+         <ClosedNodesVersion>1</ClosedNodesVersion>
+      </ClosedNodes>
+      <SelectedItems/>
+      <ScrollbarPosition orientation="vertical" >0</ScrollbarPosition>
+      <ScrollbarPosition orientation="horizontal" >0</ScrollbarPosition>
+      <ViewHeaderState orientation="horizontal" />
+      <UserChangedColumnWidths orientation="horizontal" >false</UserChangedColumnWidths>
+      <CurrentItem/>
+   </ItemView>
+   <ItemView engineview="BehavioralSim" guiview="Source" compilemode="AutoCompile" >
+      <ClosedNodes>
+         <ClosedNodesVersion>2</ClosedNodesVersion>
+         <ClosedNode>/COS_LUT_tb C:|Users|Nikhil Handyal|Documents|Spring 2012|EE 201|Xillinx|Final Project|Spectrum_Analyzer|COS_LUT_tb.v</ClosedNode>
+         <ClosedNode>/SIN_LUT_tb C:|Users|Nikhil Handyal|Documents|Spring 2012|EE 201|Xillinx|Final Project|Spectrum_Analyzer|SIN_LUT_tb.v</ClosedNode>
+         <ClosedNode>/bitRevOrderTest_bitRevOrderTest_sch_tb C:|Users|Nikhil Handyal|Documents|Spring 2012|EE 201|Xillinx|Final Project|Spectrum_Analyzer|bitRevOrderTest_tb.v/UUT - bitRevOrderTest/XLXI_1 - bitRevOrder</ClosedNode>
+         <ClosedNode>/bitRevOrder_SM_Top_bitRevOrder_SM_Top_sch_tb C:|Users|Nikhil Handyal|Documents|Spring 2012|EE 201|Xillinx|Final Project|Spectrum_Analyzer|bitRevOrder_SM_Top_tb.v</ClosedNode>
+         <ClosedNode>/bitRevOrder_SM_Top_bitRevOrder_SM_Top_sch_tb C:|Users|Nikhil Handyal|Documents|Spring 2012|EE 201|Xillinx|Final Project|Spectrum_Analyzer|bitRevOrder_SM_Top_tb.v/UUT - bitRevOrder_SM_Top/brSM - bitRevOrderSM</ClosedNode>
+         <ClosedNode>/counter9bit_tb C:|Users|Nikhil Handyal|Documents|Spring 2012|EE 201|Xillinx|Final Project|Spectrum_Analyzer|counter9bit_tb.v</ClosedNode>
+         <ClosedNode>/inputData_RRAM_tb C:|Users|Nikhil Handyal|Documents|Spring 2012|EE 201|Xillinx|Final Project|Spectrum_Analyzer|inputData_RRAM_tb.v</ClosedNode>
+      </ClosedNodes>
+      <SelectedItems>
+         <SelectedItem>C:\Users\Nikhil Handyal\Documents\Spring 2012\EE 201\Xillinx\Final Project\Spectrum_Analyzer\FFT_state1.v (C:/Users/Nikhil Handyal/Documents/Spring 2012/EE 201/Xillinx/Final Project/Spectrum_Analyzer/FFT_state1.v)</SelectedItem>
+      </SelectedItems>
+      <ScrollbarPosition orientation="vertical" >0</ScrollbarPosition>
+      <ScrollbarPosition orientation="horizontal" >0</ScrollbarPosition>
+      <ViewHeaderState orientation="horizontal" >000000ff000000000000000100000001000000000000000000000000000000000202000000010000000100000064000003e6000000020000000000000000000000000200000064ffffffff000000810000000300000002000003e60000000100000003000000000000000100000003</ViewHeaderState>
+      <UserChangedColumnWidths orientation="horizontal" >true</UserChangedColumnWidths>
+      <CurrentItem>C:\Users\Nikhil Handyal\Documents\Spring 2012\EE 201\Xillinx\Final Project\Spectrum_Analyzer\FFT_state1.v (C:/Users/Nikhil Handyal/Documents/Spring 2012/EE 201/Xillinx/Final Project/Spectrum_Analyzer/FFT_state1.v)</CurrentItem>
+   </ItemView>
+   <ItemView engineview="BehavioralSim" sourcetype="" guiview="Process" >
+      <ClosedNodes>
+         <ClosedNodesVersion>1</ClosedNodesVersion>
+         <ClosedNode>Design Utilities</ClosedNode>
+      </ClosedNodes>
+      <SelectedItems>
+         <SelectedItem/>
+      </SelectedItems>
+      <ScrollbarPosition orientation="vertical" >0</ScrollbarPosition>
+      <ScrollbarPosition orientation="horizontal" >0</ScrollbarPosition>
+      <ViewHeaderState orientation="horizontal" >000000ff000000000000000100000001000000000000000000000000000000000000000000000001e7000000010000000100000000000000000000000064ffffffff000000810000000000000001000001e70000000100000000</ViewHeaderState>
+      <UserChangedColumnWidths orientation="horizontal" >false</UserChangedColumnWidths>
+      <CurrentItem/>
+   </ItemView>
+   <ItemView engineview="BehavioralSim" sourcetype="DESUT_VERILOG" guiview="Process" >
+      <ClosedNodes>
+         <ClosedNodesVersion>1</ClosedNodesVersion>
+      </ClosedNodes>
+      <SelectedItems>
+         <SelectedItem>Simulate Behavioral Model</SelectedItem>
+      </SelectedItems>
+      <ScrollbarPosition orientation="vertical" >0</ScrollbarPosition>
+      <ScrollbarPosition orientation="horizontal" >0</ScrollbarPosition>
+      <ViewHeaderState orientation="horizontal" >000000ff00000000000000010000000100000000000000000000000000000000000000000000000195000000010000000100000000000000000000000064ffffffff000000810000000000000001000001950000000100000000</ViewHeaderState>
+      <UserChangedColumnWidths orientation="horizontal" >false</UserChangedColumnWidths>
+      <CurrentItem>Simulate Behavioral Model</CurrentItem>
+   </ItemView>
+   <ItemView engineview="SynthesisOnly" sourcetype="DESUT_SCHEMATIC" guiview="Process" >
+      <ClosedNodes>
+         <ClosedNodesVersion>1</ClosedNodesVersion>
+      </ClosedNodes>
+      <SelectedItems>
+         <SelectedItem></SelectedItem>
+      </SelectedItems>
+      <ScrollbarPosition orientation="vertical" >0</ScrollbarPosition>
+      <ScrollbarPosition orientation="horizontal" >0</ScrollbarPosition>
+      <ViewHeaderState orientation="horizontal" >000000ff000000000000000100000001000000000000000000000000000000000000000000000001e7000000010000000100000000000000000000000064ffffffff000000810000000000000001000001e70000000100000000</ViewHeaderState>
+      <UserChangedColumnWidths orientation="horizontal" >false</UserChangedColumnWidths>
+      <CurrentItem></CurrentItem>
+   </ItemView>
+   <ItemView engineview="BehavioralSim" sourcetype="DESUT_SCHEMATIC" guiview="Process" >
+      <ClosedNodes>
+         <ClosedNodesVersion>1</ClosedNodesVersion>
+      </ClosedNodes>
+      <SelectedItems/>
+      <ScrollbarPosition orientation="vertical" >0</ScrollbarPosition>
+      <ScrollbarPosition orientation="horizontal" >0</ScrollbarPosition>
+      <ViewHeaderState orientation="horizontal" />
+      <UserChangedColumnWidths orientation="horizontal" >false</UserChangedColumnWidths>
+      <CurrentItem/>
+   </ItemView>
+   <ItemView engineview="SynthesisOnly" sourcetype="DESUT_NGC" guiview="Process" >
+      <ClosedNodes>
+         <ClosedNodesVersion>1</ClosedNodesVersion>
+      </ClosedNodes>
+      <SelectedItems>
+         <SelectedItem/>
+      </SelectedItems>
+      <ScrollbarPosition orientation="vertical" >0</ScrollbarPosition>
+      <ScrollbarPosition orientation="horizontal" >0</ScrollbarPosition>
+      <ViewHeaderState orientation="horizontal" >000000ff000000000000000100000001000000000000000000000000000000000000000000000001e7000000010000000100000000000000000000000064ffffffff000000810000000000000001000001e70000000100000000</ViewHeaderState>
+      <UserChangedColumnWidths orientation="horizontal" >false</UserChangedColumnWidths>
+      <CurrentItem/>
+   </ItemView>
+   <ItemView engineview="SynthesisOnly" sourcetype="DESUT_XCO" guiview="Process" >
+      <ClosedNodes>
+         <ClosedNodesVersion>1</ClosedNodesVersion>
+         <ClosedNode>CORE Generator</ClosedNode>
+      </ClosedNodes>
+      <SelectedItems>
+         <SelectedItem></SelectedItem>
+      </SelectedItems>
+      <ScrollbarPosition orientation="vertical" >0</ScrollbarPosition>
+      <ScrollbarPosition orientation="horizontal" >0</ScrollbarPosition>
+      <ViewHeaderState orientation="horizontal" >000000ff000000000000000100000001000000000000000000000000000000000000000000000001e7000000010000000100000000000000000000000064ffffffff000000810000000000000001000001e70000000100000000</ViewHeaderState>
+      <UserChangedColumnWidths orientation="horizontal" >false</UserChangedColumnWidths>
+      <CurrentItem></CurrentItem>
+   </ItemView>
+</Project>

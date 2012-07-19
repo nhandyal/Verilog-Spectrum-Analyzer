@@ -1,0 +1,107 @@
+`timescale 1ns / 1ps
+
+////////////////////////////////////////////////////////////////////////////////
+// Company: 
+// Engineer:
+//
+// Create Date:   23:25:12 04/29/2012
+// Design Name:   inputData_RRAM
+// Module Name:   C:/Users/Nikhil Handyal/Documents/Spring 2012/EE 201/Xillinx/Final Project/Spectrum_Analyzer/inputData_RRAM_tb.v
+// Project Name:  Spectrum_Analyzer
+// Target Device:  
+// Tool versions:  
+// Description: 
+//
+// Verilog Test Fixture created by ISE for module: inputData_RRAM
+//
+// Dependencies:
+// 
+// Revision:
+// Revision 0.01 - File Created
+// Additional Comments:
+// 
+////////////////////////////////////////////////////////////////////////////////
+
+module inputData_RRAM_tb;
+
+	parameter HALF_PERIOD = 10;
+	
+	// Inputs
+	reg ClkA;
+	reg ClkB;
+	reg reset;
+	reg [9:0] addrA;
+	reg [9:0] addrB;
+	reg [17:0] DinA;
+	reg [17:0] DinB;
+	reg write_enableA;
+	reg write_enableB;
+
+	// Outputs
+	wire [17:0] DoutA;
+	wire [17:0] DoutB;
+
+	// Instantiate the Unit Under Test (UUT)
+	inputData_RRAM uut (
+		.ClkA(ClkA), 
+		.ClkB(ClkB), 
+		.reset(reset), 
+		.DoutA(DoutA), 
+		.DoutB(DoutB), 
+		.addrA(addrA), 
+		.addrB(addrB), 
+		.DinA(DinA), 
+		.DinB(DinB), 
+		.write_enableA(write_enableA), 
+		.write_enableB(write_enableB)
+	);
+	
+	initial begin :CLK_GENERATOR
+		ClkA = 0;
+		ClkB = 0;
+		forever begin
+			#HALF_PERIOD ClkA = ~ClkA;
+			#HALF_PERIOD ClkB = ~ClkB;
+		end
+	end
+	
+	initial begin
+		// Initialize Inputs
+		ClkA = 0;
+		ClkB = 0;
+		reset = 1;
+		addrA = 0;
+		addrB = 0;
+		DinA = 0;
+		DinB = 0;
+		write_enableA = 0;
+		write_enableB = 0;
+
+		// Wait 100 ns for global reset to finish
+		#100;
+        
+		// Add stimulus here
+		reset = 0;
+		addrA = 1023;
+		addrB = 1022;
+		#20
+		write_enableA = 1;
+		write_enableB = 1;
+		addrA = 1020;
+		addrB = 1019;
+		dinA = 18'b000000000000000011;
+		dinB = 18'b000000000000000010;
+		#20 //On this clock the changes should be committed
+		addrA = 1015;
+		addrB = 1014;
+		dinA = 18'b000000000000000111;
+		dinA = 18'b000000000000000110;
+		#20 //on this clock the changes should be committed
+		write_enableA = 0;
+		write_enableB = 0;
+		addrA = 1020;
+		addrB = 1019;
+	end
+      
+endmodule
+

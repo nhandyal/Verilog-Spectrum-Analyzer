@@ -1,0 +1,5 @@
+MODULE bitRevOrder_SM_Top
+	SUBMODULE bitRevOrderSM
+		INSTANCE brSM
+	SUBMODULE inputData_RRAM_test
+		INSTANCE inputData_RRAM
